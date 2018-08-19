@@ -2,10 +2,10 @@ version: "3"
 
 services:
   plex:
-    build:
-      context: .
-      args:
-        some_variable_name: a_value
+#    build:
+#      context: .
+#      args:
+#        some_variable_name: a_value
     image: test
     environment:
       NODE_ENV: ${VARIABLE_NAME} # here it is
