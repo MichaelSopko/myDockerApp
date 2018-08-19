@@ -2,6 +2,6 @@ version: "3.3"
 
 services:
   plex:
-    image: linuxserver/plex
+    image: linuxserver
       environment:
         env_var_name: ${VARIABLE_NAME}
