@@ -2,7 +2,7 @@ FROM node:8.9.0
 
 LABEL maintainer="jojo"
 
-ARG some_variable_name
+#ARG some_variable_name
 
 ARG PORT=3000
 ENV PORT $PORT
