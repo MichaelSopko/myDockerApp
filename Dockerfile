@@ -2,7 +2,11 @@ FROM node:8.9.0
 
 LABEL maintainer="jojo"
 
+ARG TEST=${VARIABLE_NAME}
 ENV TEST=${VARIABLE_NAME}
+
+ARG TEST1=${env_var_name}
+ENV TEST1=${env_var_name}
 
 ARG PORT=3000
 ENV PORT $PORT
