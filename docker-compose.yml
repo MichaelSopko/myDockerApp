@@ -15,3 +15,18 @@ services:
       env_var_name4: ${test} # here it is
       env_var_name5: ${test1}
     command: node index.js
+  mysql:
+      image: mysql:5.7.21
+      command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+      container_name: mysql-app
+      environment:
+        MYSQL_ROOT_PASSWORD: 'mYsQl:AdMiN:PwD'
+        MYSQL_DATABASE: 'clinic-dev'
+        MYSQL_USER: 'rootUser'
+        MYSQL_PASSWORD: 'MyDbPaSsWoRd'
+      networks:
+        - clinic
+      ports:
+        - '3306:3306'
+      volumes:
+        - db-data:/var/lib/mysql
