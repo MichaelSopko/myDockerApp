@@ -10,4 +10,6 @@ ENV PORT $PORT
 ARG NODE_ENV=production
 ENV NODE_ENV $NODE_ENV
 
+RUN echo "Oh dang look at that $TEST"
+
 CMD npm start
