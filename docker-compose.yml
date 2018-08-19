@@ -4,4 +4,4 @@ services:
   plex:
     image: linuxserver/plex
       environment:
-        env_var_name=${VARIABLE_NAME}
+        env_var_name: ${VARIABLE_NAME}
