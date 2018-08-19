@@ -14,3 +14,4 @@ services:
       env_var_name3: ${TEST} # here it is
       env_var_name4: ${test} # here it is
       env_var_name5: ${test1}
+    command: node index.js
