@@ -13,4 +13,7 @@ ENV env_var_name $NODE_ENV
 
 RUN echo "Oh dang look at that $some_variable_name"
 
+WORKDIR /app
+COPY  .  /app
+
 CMD npm start
