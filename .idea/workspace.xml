@@ -32,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="36" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="7" selection-end-column="36" />
+              <caret line="7" column="35" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -327,7 +327,7 @@
       <workItem from="1534664626060" duration="337000" />
       <workItem from="1534671505957" duration="1992000" />
       <workItem from="1534674593474" duration="770000" />
-      <workItem from="1534675406400" duration="1724000" />
+      <workItem from="1534675406400" duration="1852000" />
     </task>
     <task id="LOCAL-00001" summary=".env">
       <created>1534666145709</created>
@@ -574,11 +574,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534696525901</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="docker compose">
+      <created>1534697125676</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1534697125676</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8836000" />
+    <option name="totallyTimeSpent" value="8964000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -787,7 +794,7 @@
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="36" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="7" selection-end-column="36" />
+          <caret line="7" column="35" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="35" />
           <folding />
         </state>
       </provider>
